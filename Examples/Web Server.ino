@@ -17,8 +17,8 @@ void setup(void){
   delay(10);
   Serial.println('\n');
 
-//  wifiMulti.addAP("Cup of Tea", "3@Be4Gy@N0oRe");   // add Wi-Fi networks you want to connect to
-  wifiMulti.addAP("Louise", "@0had07575");
+//  wifiMulti.addAP("----", "----");   // add Wi-Fi networks you want to connect to
+  wifiMulti.addAP("----", "----");
   wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");
 
   Serial.println("Connecting ...");
